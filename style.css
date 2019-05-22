@@ -1,3 +1,9 @@
+aside, article, section, header, footer, nav {
+    display: block;
+
+}
+
+
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
@@ -47,13 +53,20 @@ section {
     padding: 10px;
     margin: 5px;
     border: 5px solid #777;
+    float: right;
 }
 aside {
     background-color: #ebebeb;
     font-size: 18px;
     padding: 10px;
     margin: 5px;
+    height: 320px;
    
+}
+
+aside h1 {
+    color=grey;
+    font-size: 18px;
 }
 
 footer {
@@ -65,13 +78,25 @@ footer {
 }
 
 article {
-    color: #ebebeb;
-    background-color: #777;
+    width: 475px;
+    background: #777;
+    border: 10px solid #777;
+}
+
+article h1 {
+    color: white;
+    font-size: 18px;
+}
+
+article p {
+    background: #ebebeb;
+    color: grey;
+    font-size: 18px;
     height: 45px;
     padding: 10px;
     margin: 5px;
-    float: left;
-
+    border-left: 5px solid #777;
+    border-right: 5px solid #777;
 }
 
 h1 {
