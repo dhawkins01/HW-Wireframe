@@ -1,9 +1,3 @@
-aside, article, section, header, footer, nav {
-    display: block;
-
-}
-
-
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
@@ -65,7 +59,7 @@ aside {
 }
 
 aside h1 {
-    color=grey;
+    color: grey;
     font-size: 18px;
 }
 
