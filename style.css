@@ -9,16 +9,29 @@ body {
 
 header {
     background-color: #ebebeb;
-    padding: 20px 400px 20px 400px;
-    display: block;
+    padding: 10px;
+    margin: 10px;
+    height: 40px;
+    border: 0px solid #777;
+    
 }
 
 nav {
     background-color: #ebebeb;
+    padding: 10px;
+    margin: 10px;
+    height: 40px;
+    border: 0px solid #777;
 }
 
 section {
     background-color: #ebebeb;
+    width: 495px;
+    font-size: 18px;
+    padding: 10px;
+    border: 5px solid #777;
+    margin: 10px;
+    height: 320px;
 }
 
 aside {
@@ -38,6 +51,7 @@ article {
 h1 {
     color: #777;
     background-color: #ebebeb;
+    font-size: 20px;
 
 }
 
