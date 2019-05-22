@@ -32,23 +32,45 @@ section {
     border: 5px solid #777;
     margin: 10px;
     height: 320px;
+    
+}
+.left {
+    width: 495px;
+    padding: 10px;
+    margin: 5px;
+    border: 5px solid #777;
     float: left;
 }
 
+.right {
+    width: 365px;
+    padding: 10px;
+    margin: 5px;
+    border: 5px solid #777;
+}
 aside {
     background-color: #ebebeb;
     font-size: 18px;
     padding: 10px;
     margin: 5px;
+   
 }
 
 footer {
+    clear: both;
     background-color: #ebebeb;
+    margin: 10px;
+    padding: 10px;
+    height: 40px;
 }
 
 article {
     color: #ebebeb;
     background-color: #777;
+    height: 45px;
+    padding: 10px;
+    margin: 5px;
+    float: left;
 
 }
 
